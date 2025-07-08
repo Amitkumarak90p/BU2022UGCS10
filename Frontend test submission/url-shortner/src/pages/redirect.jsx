@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { logger } from "../utils/loggingMiddleware";
 
 export default function Redirect() {
-  const { code } = useParams(); // URL param
+  const { code } = useParams(); 
   const navigate = useNavigate();
 
   useEffect(() => {

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Box, Button, TextField } from "@mui/material";
 import URLList from "../components/urlList"; 
-import { logger } from "../utils/loggingMiddleware"; // ✅ Correct named import
+import { logger } from "../utils/loggingMiddleware";
 
 export default function Home() {
   const [longUrl, setLongUrl] = useState("");
